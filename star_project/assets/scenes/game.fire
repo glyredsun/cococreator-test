@@ -349,7 +349,11 @@
     "node": {
       "__id__": 7
     },
-    "_enabled": true
+    "_enabled": true,
+    "jumpDuration": 0.3,
+    "jumpHeight": 300,
+    "axMoveSpeed": 200,
+    "accel": 100
   },
   {
     "__type__": "cc.Canvas",
