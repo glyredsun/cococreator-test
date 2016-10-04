@@ -100,6 +100,9 @@
     "_components": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -280,7 +283,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -295,7 +298,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -170
+      "y": -200
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -352,7 +355,7 @@
     "_enabled": true,
     "jumpDuration": 0.3,
     "jumpHeight": 300,
-    "axMoveSpeed": 200,
+    "maxMoveSpeed": 200,
     "accel": 100
   },
   {
@@ -370,5 +373,25 @@
     },
     "_fitWidth": false,
     "_fitHeight": true
+  },
+  {
+    "__type__": "b1237o1qLpKII80QTFr8r/V",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "player": {
+      "__id__": 7
+    },
+    "starPrefab": {
+      "__uuid__": "1ed349e1-b9e6-4c1d-bac1-a5c71f31e337"
+    },
+    "ground": {
+      "__id__": 5
+    },
+    "maxStarDuration": 0,
+    "minStarDuration": 0
   }
 ]
